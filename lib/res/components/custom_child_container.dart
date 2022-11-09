@@ -22,7 +22,7 @@ class CustomChildContainer extends StatelessWidget {
   CustomChildContainer({
     super.key,
     required this.child,
-    required this.bgColor,
+    this.bgColor = AppColors.whiteColor,
     this.bottomLeftRadius = 0.0,
     this.bottomRightRadius = 0.0,
     this.topLeftRadius = 0.0,
